@@ -17,22 +17,22 @@ cask "rigdepot" do
   on_macos do
     on_intel do
       url "https://github.com/code2rich/rigdepot/releases/download/v#{version}/rgd_#{version}_darwin_amd64.tar.gz"
-      sha256 "3f8647d95d8a6edcf54a2e879a7bc35a151d74e85616c88eab8328046600fa5f"
+      sha256 "87201aa18fee4fab385103b7c94300475e7e43b49d8b01bc7f75db9b46d7acca"
     end
     on_arm do
       url "https://github.com/code2rich/rigdepot/releases/download/v#{version}/rgd_#{version}_darwin_arm64.tar.gz"
-      sha256 "b38d16398aecbcfdf9869504bf12c3260292818d5fc3d160418360a5b89b1699"
+      sha256 "d9f566418902f540719772388011cd724d9a2bb5fb6610ff80b6d0cbbace1bd5"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/code2rich/rigdepot/releases/download/v#{version}/rgd_#{version}_linux_amd64.tar.gz"
-      sha256 "58d4365b55defe1afa1510f0f56529788911ace21fd91287e5d2322d249136a6"
+      sha256 "f76ed681f7f9e56e6aa5743e57d81dbca27b1de0eb42b6c2b74458fdb6e27d5b"
     end
     on_arm do
       url "https://github.com/code2rich/rigdepot/releases/download/v#{version}/rgd_#{version}_linux_arm64.tar.gz"
-      sha256 "cc960183a792b9c093fb9ec2943f35c3cafc4542e321e488c673099984db1830"
+      sha256 "245cc5b54558b52e28d377ddf28317ffc0c66fcf3ff4c9ad85c994d82f36c573"
     end
   end
 
